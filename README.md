@@ -125,10 +125,6 @@ UnityとC#を使用したゲーム制作を中心に、
 
 ### ゲーム画面
 
-![新大陸での属性学](attribute_01.png)
-![新大陸での属性学](attribute_02.png)
-![新大陸での属性学](attribute_03.png)
-
 <p align="center">
   <img src="attribute_01.png" width="30%">
   <img src="attribute_02.png" width="30%">
