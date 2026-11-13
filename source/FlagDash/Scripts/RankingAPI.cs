@@ -4,40 +4,40 @@ using UnityEngine.Networking;
 
 public class RankingAPI : MonoBehaviour
 {
-    // ƒXƒRƒA•Û‘¶PHP
+    // ã‚¹ã‚³ã‚¢ä¿å­˜PHP
     private string saveScoreURL = "http://localhost/ranking/save_score.php";
 
-    // ƒ‰ƒ“ƒLƒ“ƒOæ“¾PHP
+    // ãƒ©ãƒ³ã‚­ãƒ³ã‚°å–å¾—PHP
     private string getRankingURL = "http://localhost/ranking/get_ranking.php";
 
-    // ƒXƒRƒA‚ğ‘—M
+    // ã‚¹ã‚³ã‚¢ã‚’é€ä¿¡
     public IEnumerator SaveScore(string name, int score)
     {
         WWWForm form = new WWWForm();
 
-        // PHP‚Ö‘—‚éƒf[ƒ^
+        // PHPã¸é€ã‚‹ãƒ‡ãƒ¼ã‚¿
         form.AddField("name", name);
         form.AddField("score", score);
 
-        // PHP‚ÖPOST‘—M
+        // PHPã¸POSTé€ä¿¡
         using (UnityWebRequest request =
             UnityWebRequest.Post(saveScoreURL, form))
         {
             yield return request.SendWebRequest();
 
-            // ’ÊMŒ‹‰Ê‚ğŠm”F
+            // é€šä¿¡çµæœã‚’ç¢ºèª
             if (request.result == UnityWebRequest.Result.Success)
             {
-                Debug.Log("PHP‰“šF" + request.downloadHandler.text);
+                Debug.Log("PHPå¿œç­”ï¼š" + request.downloadHandler.text);
             }
             else
             {
-                Debug.LogError("’ÊMƒGƒ‰[F" + request.error);
+                Debug.LogError("é€šä¿¡ã‚¨ãƒ©ãƒ¼ï¼š" + request.error);
             }
         }
     }
 
-    // ƒ‰ƒ“ƒLƒ“ƒO‚ğæ“¾
+    // ãƒ©ãƒ³ã‚­ãƒ³ã‚°ã‚’å–å¾—
     public IEnumerator GetRanking(
     System.Action<RankingData[]> onComplete)
     {
@@ -50,19 +50,19 @@ public class RankingAPI : MonoBehaviour
             {
                 string json = request.downloadHandler.text;
 
-                Debug.Log("ƒ‰ƒ“ƒLƒ“ƒOJSONF" + json);
+                Debug.Log("ãƒ©ãƒ³ã‚­ãƒ³ã‚°JSONï¼š" + json);
 
-                // JSON‚ğRankingData‚Ì”z—ñ‚É•ÏŠ·
+                // JSONã‚’RankingDataã®é…åˆ—ã«å¤‰æ›
                 RankingData[] ranking =
                     JsonHelper.FromJson<RankingData>(json);
 
-                // RankingUI‚Öƒ‰ƒ“ƒLƒ“ƒO‚ğ“n‚·
+                // RankingUIã¸ãƒ©ãƒ³ã‚­ãƒ³ã‚°ã‚’æ¸¡ã™
                 onComplete?.Invoke(ranking);
             }
             else
             {
                 Debug.LogError(
-                    "ƒ‰ƒ“ƒLƒ“ƒOæ“¾ƒGƒ‰[F" + request.error
+                    "ãƒ©ãƒ³ã‚­ãƒ³ã‚°å–å¾—ã‚¨ãƒ©ãƒ¼ï¼š" + request.error
                 );
             }
         }
@@ -74,7 +74,7 @@ public class RankingAPI : MonoBehaviour
     {
         WWWForm form = new WWWForm();
 
-        // PHP‚ÖƒXƒRƒA‚ğ‘—M
+        // PHPã¸ã‚¹ã‚³ã‚¢ã‚’é€ä¿¡
         form.AddField("score", score);
 
         using (UnityWebRequest request =
@@ -89,7 +89,7 @@ public class RankingAPI : MonoBehaviour
                 string response =
                     request.downloadHandler.text.Trim();
 
-                Debug.Log("ƒ‰ƒ“ƒLƒ“ƒO”»’èF" + response);
+                Debug.Log("ãƒ©ãƒ³ã‚­ãƒ³ã‚°åˆ¤å®šï¼š" + response);
 
                 bool isHighScore =
                     response == "true";
@@ -99,7 +99,7 @@ public class RankingAPI : MonoBehaviour
             else
             {
                 Debug.LogError(
-                    "ƒ‰ƒ“ƒLƒ“ƒO”»’èƒGƒ‰[F" + request.error
+                    "ãƒ©ãƒ³ã‚­ãƒ³ã‚°åˆ¤å®šã‚¨ãƒ©ãƒ¼ï¼š" + request.error
                 );
             }
         }
