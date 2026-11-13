@@ -178,11 +178,11 @@ TPS視点でプレイヤーを操作し、
 ランダムに配置される旗を獲得するまでのタイムを競うゲーム。
 
 **ランキング機能**
-- XAMPPを使用したランキングデータ管理を実装
+- C#・PHP・MySQLを連携したランキングシステムを実装
 - プレイ記録から上位10件のスコアを管理
 - 英数字3文字の名前登録に対応
-- データの保存・読み込み処理を実装
-- ローカル環境でのサーバー連携を含むランキングシステムの実装経験
+- スコアの保存・取得処理を実装
+- XAMPPを使用したローカルサーバー環境で動作確認
 
 **実装・工夫した点**
 - スタート地点とゴール地点のランダム選択
@@ -199,23 +199,25 @@ TPS視点でプレイヤーを操作し、
 
 ### ゲーム画面
 
-### 旗取りダッシュ
-
 <p align="center">
   <img src="Image/flag_01.png" width="30%">
   <img src="Image/flag_02.png" width="30%">
   <img src="Image/flag_03.png" width="30%">
 </p>
 
+### オプション画面
+
 <p align="center">
   <img src="Image/flag_04.png" width="30%">
   <img src="Image/flag_05.png" width="30%">
   <img src="Image/flag_06.png" width="30%">
-</p>
-
-<p align="center">
   <img src="Image/flag_07.png" width="30%">
   <img src="Image/flag_08.png" width="30%">
+</p>
+
+### ランキング画面
+
+<p align="center">
   <img src="Image/flag_09.png" width="30%">
 </p>
 
