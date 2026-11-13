@@ -126,9 +126,9 @@ UnityとC#を使用したゲーム制作を中心に、
 ### ゲーム画面
 
 <p align="center">
-  <img src="attribute_01.png" width="30%">
-  <img src="attribute_02.png" width="30%">
-  <img src="attribute_03.png" width="30%">
+  <img src="Image/attribute_01.png" width="30%">
+  <img src="Image/attribute_02.png" width="30%">
+  <img src="Image/attribute_03.png" width="30%">
 </p>
 
 ---
@@ -158,9 +158,9 @@ UnityとC#を使用したゲーム制作を中心に、
 ### ゲーム画面
 
 <p align="center">
-  <img src="potion_01.png" width="30%">
-  <img src="potion_02.png" width="30%">
-  <img src="potion_03.png" width="30%">
+  <img src="Image/potion_01.png" width="30%">
+  <img src="Image/potion_02.png" width="30%">
+  <img src="Image/potion_03.png" width="30%">
 </p>
 
 ---
@@ -202,21 +202,21 @@ TPS視点でプレイヤーを操作し、
 ### 旗取りダッシュ
 
 <p align="center">
-  <img src="flag_01.png" width="30%">
-  <img src="flag_02.png" width="30%">
-  <img src="flag_03.png" width="30%">
+  <img src="Image/flag_01.png" width="30%">
+  <img src="Image/flag_02.png" width="30%">
+  <img src="Image/flag_03.png" width="30%">
 </p>
 
 <p align="center">
-  <img src="flag_04.png" width="30%">
-  <img src="flag_05.png" width="30%">
-  <img src="flag_06.png" width="30%">
+  <img src="Image/flag_04.png" width="30%">
+  <img src="Image/flag_05.png" width="30%">
+  <img src="Image/flag_06.png" width="30%">
 </p>
 
 <p align="center">
-  <img src="flag_07.png" width="30%">
-  <img src="flag_08.png" width="30%">
-  <img src="flag_09.png" width="30%">
+  <img src="Image/flag_07.png" width="30%">
+  <img src="Image/flag_08.png" width="30%">
+  <img src="Image/flag_09.png" width="30%">
 </p>
 ---
 
