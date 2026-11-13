@@ -161,6 +161,7 @@ UnityとC#を使用したゲーム制作を中心に、
   <img src="Image/potion_01.png" width="30%">
   <img src="Image/potion_02.png" width="30%">
   <img src="Image/potion_03.png" width="30%">
+  <img src="Image/potion_04.png" width="30%">
 </p>
 
 ---
