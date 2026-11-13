@@ -158,10 +158,10 @@ UnityとC#を使用したゲーム制作を中心に、
 ### ゲーム画面
 
 <p align="center">
-  <img src="Image/potion_01.png" width="30%">
-  <img src="Image/potion_02.png" width="30%">
-  <img src="Image/potion_03.png" width="30%">
-  <img src="Image/potion_04.png" width="30%">
+  <img src="Image/potion_01.png" width="25%">
+  <img src="Image/potion_02.png" width="25%">
+  <img src="Image/potion_03.png" width="25%">
+  <img src="Image/potion_04.png" width="25%">
 </p>
 
 ---
