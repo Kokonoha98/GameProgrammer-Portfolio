@@ -166,7 +166,6 @@ UnityとC#を使用したゲーム制作を中心に、
 ---
 
 ### 6. 旗取りダッシュ
-[作品の詳細・ソースコードはこちら](source/FlagDash/README.md)
 
 - ジャンル：3Dアクション・タイムアタック
 - プラットフォーム：Windows / iOS / Android
@@ -219,6 +218,8 @@ TPS視点でプレイヤーを操作し、
   <img src="Image/flag_08.png" width="30%">
   <img src="Image/flag_09.png" width="30%">
 </p>
+[作品の詳細・ソースコードはこちら](source/FlagDash/README.md)
+
 ---
 
 ## Other Skills
