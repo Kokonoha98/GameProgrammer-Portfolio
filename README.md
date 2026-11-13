@@ -131,6 +131,8 @@ UnityとC#を使用したゲーム制作を中心に、
   <img src="Image/attribute_03.png" width="30%">
 </p>
 
+[作品の詳細・ソースコードはこちら](source/AttributeStudy/README.md)
+
 ---
 
 ### 5. できたて！ポーションスタンド
@@ -163,6 +165,8 @@ UnityとC#を使用したゲーム制作を中心に、
   <img src="Image/potion_03.png" width="20%">
   <img src="Image/potion_04.png" width="20%">
 </p>
+
+[作品の詳細・ソースコードはこちら](source/PotionStand/README.md)
 
 ---
 
